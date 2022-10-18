@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+
+body {
+    background-image:url(wallpapers_imgs/wallpaperflare.com_wallpaper.jpg);
+    font-family: 'Bungee Spice', cursive;
+    color: white;
+}
+
+#box_video{
+    background-color: rgba(0, 0, 0, 0.534);
+    border-radius: 15px;
+    width: 70%;
+    margin: auto;
+}
+
+#minibox{
+    background-color: rgb(240, 62, 62);
+    width:400px; 
+    height:250px;
+    border-radius: 15px;
+
+}
+
+iframe{
+    width:350px; 
+    height: 200px;
+    transform: translate(-50%, -50%);
+}
