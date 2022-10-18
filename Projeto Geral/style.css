@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Silkscreen&display=swap');
+
+/* Acabei de criar gratuitamente uma paleta de cores para o meu negócio. Crie a sua também em: https://paletadecores.com/ */ 
+
+
+body {
+    background-image: url(https://static.vecteezy.com/system/resources/previews/001/372/951/original/simple-neon-stripes-colored-background-free-vector.jpg);
+    background-size: cover;
+    background-color: #240047;
+    text-align: center;
+    margin-top: 0px;
+    padding: 0px;
+    margin: 0;  
+  }
+h1 {
+    color: #40ffdc;
+    text-shadow: 5px, 5px #ff009d;
+    text-align: center;
+    font-family: 'Silkscreen', cursive;
+    font-size: 60px;
+  } 
+p, p2 {
+    font-family: Lato;
+    font-size: 25px;
+    position: relative;
+    top: 50px;
+    left: 0px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+   body img{
+     height: 30vw;
+   }
+   .posteres {
+    filter: brightness(60%);
+    align-content: center;
+   }
+
+   /*nav bar*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+  border-right:1px solid #bbb;
+}
+section>img{
+  height: 1vw;
+}
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
+}
